@@ -1,0 +1,8 @@
+{
+    "test_ubuntu": {
+        "image": "ubuntu:22.04",
+        "features": {
+            "ansible-lint": {}
+        }
+    }
+}

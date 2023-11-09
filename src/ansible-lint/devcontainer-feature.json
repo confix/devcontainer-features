@@ -1,0 +1,20 @@
+{
+    "id": "ansible-lint",
+    "version": "1.0.0",
+    "name": "Ansible Lint (via pipx)",
+    "documentationURL": "http://github.com/confix/devcontainer-features/tree/main/src/ansible-lint",
+    "description": "Ansible Lint is a command-line tool for linting playbooks, roles and collections aimed toward any Ansible users.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/ansible"
+    ]
+}
